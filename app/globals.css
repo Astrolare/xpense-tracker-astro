@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+    @apply bg-three space-x-4 fixed w-screen z-50;
+}
+
+nav a{
+    @apply text-five hover:underline hover:text-one;
+}
